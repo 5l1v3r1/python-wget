@@ -278,7 +278,7 @@ def filename_fix_existing(filename):
     idx = 1
     if indexes:
         idx += sorted(indexes)[-1]
-    return '%s (%d).%s' % (name, idx, ext)
+    return '%s(%d).%s' % (name, idx, ext)
 
 
 # --- terminal/console output helpers ---
